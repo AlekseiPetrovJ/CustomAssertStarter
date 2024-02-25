@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: "development"
+---
+spring:
+  config:
+    activate:
+      on-profile: "development"
+custom-assert-spring-boot-starter:
+  author: Petrov Aleksey
+  email: peta@gmail.com
